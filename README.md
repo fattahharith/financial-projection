@@ -39,16 +39,16 @@ Code Explanation
 
 Here's a breakdown of what the code does:
 
-Imports the necessary libraries: Pandas and scikit-learn.
-Reads the existing financial data of SKS Corporation from the "sample_output.csv" file into a Pandas DataFrame named "df".
-Creates separate DataFrames for the features (year) and target variables (revenue, expenses, income).
-Creates a LinearRegression object for each target variable.
-Fits the models to the existing data.
-Uses the models to predict values for the years 2023-2028.
-Next, we create a separate DataFrame for the features (year) and target variables (revenue, expenses, income). We will use these DataFrames to train our Linear Regression models.
-We then create a LinearRegression object for each target variable and fit the models to the existing data.
-We use the fitted models to predict the values for the years 2023-2028 and create new columns in the DataFrame for the predicted values.
-Finally, we write the DataFrame to a new CSV file.
+- Imports the necessary libraries: Pandas and scikit-learn.
+- Reads the existing financial data of SKS Corporation from the "sample_output.csv" file into a Pandas DataFrame named "df".
+- Creates separate DataFrames for the features (year) and target variables (revenue, expenses, income).
+- Creates a LinearRegression object for each target variable.
+- Fits the models to the existing data.
+- Uses the models to predict values for the years 2023-2028.
+- Next, we create a separate DataFrame for the features (year) and target variables (revenue, expenses, income). We will use these DataFrames to train our Linear Regression models.
+- We then create a LinearRegression object for each target variable and fit the models to the existing data.
+- We use the fitted models to predict the values for the years 2023-2028 and create new columns in the DataFrame for the predicted values.
+- Finally, we write the DataFrame to a new CSV file.
 
 
 In summary, this Python code reads financial data from a CSV file, uses Linear Regression to predict financial values for future years, and saves the predicted values in a new CSV file.
