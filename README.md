@@ -17,7 +17,6 @@ You can install NumPy, Pandas, and scikit-learn by running the following command
 pip install numpy
 pip install pandas
 pip install scikit-learn
-
 ```
 Usage
 
@@ -28,11 +27,9 @@ To use this program, follow these steps:
 - Open a terminal or command prompt and navigate to the directory where the files are located.
 
 
-Run the following command:
+Run the following command:
 ```
-
 python prediction.py
-
 ```
 - The program will generate a new file named "sample_output.csv" in the same directory, which contains the predicted financial data for the years 2023-2028.
 Code Explanation
