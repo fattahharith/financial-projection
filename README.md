@@ -23,7 +23,7 @@ Usage
 To use this program, follow these steps:
 
 - Download the "dataset.csv" file, which contains the existing financial data of SKS Corporation.
-- Save the file in the same directory as the "sks_financial_report_prediction.py" file.
+- Save the file in the same directory as the "prediction.py" file.
 - Open a terminal or command prompt and navigate to the directory where the files are located.
 
 
@@ -37,7 +37,7 @@ Code Explanation
 Here's a breakdown of what the code does:
 
 - Imports the necessary libraries: Pandas and scikit-learn.
-- Reads the existing financial data of SKS Corporation from the "sample_output.csv" file into a Pandas DataFrame named "df".
+- Reads the existing financial data from the "sample_output.csv" file into a Pandas DataFrame named "df".
 - Creates separate DataFrames for the features (year) and target variables (revenue, expenses, income).
 - Creates a LinearRegression object for each target variable.
 - Fits the models to the existing data.
