@@ -7,10 +7,10 @@ Requirements
 
 To run this program, you need to have the following software installed on your computer:
 ```
-Python 3
-NumPy
-Pandas
-scikit-learn
+Python 3
+NumPy
+Pandas
+scikit-learn
 ```
 You can install NumPy, Pandas, and scikit-learn by running the following commands in your terminal or command prompt:
 ```
