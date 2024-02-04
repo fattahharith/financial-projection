@@ -23,9 +23,9 @@ Usage
 
 To use this program, follow these steps:
 
-Download the "dataset.csv" file, which contains the existing financial data of SKS Corporation.
-Save the file in the same directory as the "sks_financial_report_prediction.py" file.
-Open a terminal or command prompt and navigate to the directory where the files are located.
+- Download the "dataset.csv" file, which contains the existing financial data of SKS Corporation.
+- Save the file in the same directory as the "sks_financial_report_prediction.py" file.
+- Open a terminal or command prompt and navigate to the directory where the files are located.
 
 
 Run the following command:
@@ -34,7 +34,7 @@ To use this program, follow these steps:
 python prediction.py
 
 ```
-The program will generate a new file named "sample_output.csv" in the same directory, which contains the predicted financial data for the years 2023-2028.
+- The program will generate a new file named "sample_output.csv" in the same directory, which contains the predicted financial data for the years 2023-2028.
 Code Explanation
 
 Here's a breakdown of what the code does:
