@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 
 # Read the existing data into a Pandas DataFrame
 print("Reading input file...")
-df = pd.read_csv('sks_financial_report.csv')
+df = pd.read_csv('dataset.csv')
 
 # Create separate DataFrames for the features (year) and target variables (revenue, expenses, income)
 print("Initiating the variables...")
@@ -31,7 +31,7 @@ predicted_expenses = lr_expenses.predict(years)
 predicted_income = lr_income.predict(years)
 
 # Create a new DataFrame for the predicted values
-print("Prediction completed. Generating sks_financial_airport.csv...")
+print("Prediction completed. Generating sample_output.csv...")
 predicted_df = pd.DataFrame({
     'year': [2023, 2024, 2025, 2026, 2027, 2028],
     'revenue': predicted_revenue.reshape(-1),
@@ -43,6 +43,6 @@ predicted_df = pd.DataFrame({
 df = pd.concat([df, predicted_df], ignore_index=True)
 
 # Write the DataFrame to a new CSV file
-df.to_csv('sks_financial_report_predicted.csv', index=False)
+df.to_csv('sample_output.csv', index=False)
 
 print("File created.")
